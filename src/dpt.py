@@ -44,8 +44,3 @@ def IDPT(L):
     s[M-1] = (1 if L[M-1] >= 0 else -1)* np.sqrt( ((1 - np.abs(L[M-2])) *np.abs(L[M-1]))**2 - 1 ) + s[M-2]
 
   return s
-
-s = [0.1, 2, -3.5, 10]
-
-print("DPT of s[.]: ", DPT(s))
-print("IDPT of L{s}: ", IDPT(DPT(s)))
