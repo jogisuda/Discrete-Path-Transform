@@ -1,7 +1,8 @@
 # Discrete-Path Transform
-Discrete-Path Transform lib for python
 
 https://doi.org/10.1016/j.dsp.2021.103158.
+
+Discrete-Path Transform lib for python
 
 Designed to serve as a new tool for handcraft feature extraction (FE) it improves the elementary analysis provided by signal energy (E) and enhances the humble spectral investigation granted by zero-crossing rates (ZCR). Python code is presented here for both the DPT as well as the inverse transform, IDPT, allowing for perfect reconstruction of the signal.
 
